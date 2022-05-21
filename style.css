@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    "header header header header" auto
+    "left-menu emails right-menu shortcuts" 1fr /
+    180px 1fr 180px 50px;
+}
+.header {
+    background-color: pink;
+    grid-area: header;
+}
+.left-menu {
+    background-color: plum;
+    grid-area: left-menu;
+}
+.emails {
+    background-color: aquamarine;
+    grid-area: emails;
+}
+.right-menu {
+    background-color: rgb(241, 194, 132);
+    grid-area: right-menu;
+}
+.shortcuts {
+    background-color: rgb(201, 192, 192);
+    grid-area: shortcuts;
+}
