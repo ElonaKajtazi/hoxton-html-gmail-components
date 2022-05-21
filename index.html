@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gmail components</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <header class="header"> 
-       <img src="https://oxosolutions.com/wp-content/uploads/2020/10/Gmail-old-logo-Google-Changed-Gmail-Logo-Heres-What-Changed-Made-So-Far-.jpg" alt="Gmail logo"> 
-       <input type="text" placeholder="Search mail">
-       
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left-menu">
+        <button>
+          <span class="material-symbols-outlined"> menu </span>
+        </button>
+      </div>
+      <div class="header__search">
+        <input type="text" placeholder="Search mail" />
+      </div>
+      <div class="header__right-menu"></div>
     </header>
-     <aside class="left-menu"> Left menu </aside>
-    <main class="emails"> emails </main>
-    <aside class="right-menu"> Right menu </aside>
-    <aside class="shortcuts"> Shortcuts</aside>
-    
-            
-
- </body>
+    <aside class="left-menu">Left menu</aside>
+    <main class="emails">emails</main>
+    <aside class="right-menu">Right menu</aside>
+    <aside class="shortcuts">Shortcuts</aside>
+  </body>
 </html>

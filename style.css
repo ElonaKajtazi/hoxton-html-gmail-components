@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body */
 body {
     height: 100vh;
     display: grid;
@@ -11,10 +12,12 @@ body {
     "left-menu emails right-menu shortcuts" 1fr /
     180px 1fr 180px 50px;
 }
+/* header */
 .header {
     background-color: pink;
     grid-area: header;
 }
+/* left-menu */
 .left-menu {
     background-color: plum;
     grid-area: left-menu;
