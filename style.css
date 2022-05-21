@@ -22,8 +22,13 @@ body {
   gap: 3rem;
   padding: 0.5rem 1rem;
 }
-.gmail-logo {
-  width: 65px;
+.header button {
+  border: none;
+  background: none;
+}
+.header button span {
+  font-size: 1.5rem;
+  color: #50575e;
 }
 .header__left-menu {
   display: grid;
@@ -31,15 +36,48 @@ body {
   gap: 0.5rem;
   align-items: center;
 }
+.gmail-logo {
+  width: 65px;
+}
 .profile-picture {
   width: 30px;
 }
 .header__search {
   display: grid;
+  grid-template-columns: auto 1fr auto;
 }
 .header__search__bar {
   border: none;
-  background-color: rgb(237, 237, 237);
+  background-color: #f1f3f4;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  color: #8d9297;
+}
+.search-side {
+  background-color: #f1f3f4;
+  color: #666b70;
+  display: grid;
+  place-content: center;
+  padding: 5px;
+}
+
+.header__search__search-icon {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.header__search__search-icon span {
+  font-size: 1.2rem;
+}
+.header__search__expand {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.header__search__expand span {
+  font-size: 1.2rem;
+}
+
+.header__right-menu__profile .name {
+  font-size: 1rem;
 }
 /* Left menu*/
 .left-menu {
