@@ -163,11 +163,17 @@ button {
   align-items: center;
   padding: 5px;
 }
+.menu-item__team__icon {
+  color: #1e8e3e;
+}
 .menu-item__new-rfps {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+}
+.menu-item__new-rfps__icon {
+  color: #f9ab00;
 }
 .menu-item__projects {
   display: grid;
@@ -175,11 +181,17 @@ button {
   align-items: center;
   padding: 5px;
 }
+.menu-item__projects__icon {
+  color: #1a73e8;
+}
 .menu-item__personal {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+}
+.menu-item__personal__icon {
+  color: #e91c11;
 }
 .menu-item__more {
   display: grid;
@@ -251,6 +263,8 @@ button {
   display: grid;
   grid-template-columns: 45px auto;
   padding: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 .menu-item__chat__jessica-holman__profile-picture img {
   width: 35px;
