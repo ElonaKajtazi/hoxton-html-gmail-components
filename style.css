@@ -111,11 +111,13 @@ button {
   background-color: white;
   grid-area: left-menu;
   display: grid;
-  border-bottom: 2px solid gray;
 }
 .left-menu .compose {
   padding-top: 10px;
   width: 150px;
+}
+.menu-items {
+  color: #5e6267;
 }
 .menu-item__inbox {
   display: grid;
@@ -125,30 +127,35 @@ button {
   background-color: #fce8e6;
   color: #d94843;
   border-radius: 15px;
+  font-weight: bold;
 }
 .menu-item__starred {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+  font-weight: bold;
 }
 .menu-item__snoozed {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+  font-weight: bold;
 }
 .menu-item__important {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+  font-weight: bold;
 }
 .menu-item__sent {
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+  font-weight: bold;
 }
 .menu-item__team {
   display: grid;
@@ -179,6 +186,92 @@ button {
   grid-template-columns: 35px 1fr;
   align-items: center;
   padding: 5px;
+  border-bottom: 2px solid rgb(214, 213, 213);
+}
+.menu-item__meet {
+  font-weight: bold;
+  padding: 5px;
+  color: #5e6267;
+}
+.menu-item__meet__start-a-meeting {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+}
+.menu-item__meet__join-a-meeting {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  border-bottom: 2px solid rgb(214, 213, 213);
+}
+.menu-item__chat {
+  padding: 5px;
+  color: #5e6267;
+}
+.menu-item__chat__text {
+  font-weight: bold;
+}
+.menu-item__chat__nina-xu {
+  display: grid;
+  grid-template-columns: 45px auto 40px auto;
+  align-items: center;
+  padding: 3px;
+  border-bottom: 2px solid rgb(214, 213, 213);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.menu-item__chat__nina-xu__profile-picture img {
+  width: 35px;
+  border-radius: 50%;
+}
+.menu-item__chat__nina-xu__expand-icon {
+  color: #72767b;
+}
+.menu-item__chat__nina-xu__plus-icon {
+  color: #72767b;
+}
+/* I need to work more on tom and jecicca messages */
+.menu-item__chat__tom-dow {
+  display: grid;
+  grid-template-columns: 45px auto;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.menu-item__chat__tom-dow__profile-picture img {
+  width: 35px;
+  border-radius: 50%;
+}
+.menu-item__chat__tom-dow__message {
+  display: grid;
+  grid-auto-flow: column;
+  padding-left: 50px;
+}
+.menu-item__chat__jessica-holman {
+  display: grid;
+  grid-template-columns: 45px auto;
+  padding: 5px;
+}
+.menu-item__chat__jessica-holman__profile-picture img {
+  width: 35px;
+  border-radius: 50%;
+}
+.menu-item__chat__jessica-holman__message {
+  display: grid;
+  grid-auto-flow: column;
+  padding-left: 50px;
+}
+.left-menu__footer {
+  display: grid;
+  grid-template-columns: 33px 33px 33px;
+  place-items: center;
+  padding-left: 40px;
+  padding-top: 10px;
+  border-top: 2px solid rgb(214, 213, 213);
+  color: #5f6368;
+}
+.left-menu__footer__hangouts-icon {
+  width: 25px;
 }
 
 /* Emails */
