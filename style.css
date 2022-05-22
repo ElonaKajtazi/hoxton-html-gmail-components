@@ -22,7 +22,7 @@ body {
   gap: 3rem;
   padding: 0.5rem 1rem;
 }
-.header button {
+button {
   border: none;
   background: none;
 }
@@ -75,9 +75,30 @@ body {
 .header__search__expand span {
   font-size: 1.2rem;
 }
+.header__right-menu {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.3rem;
+}
+.header__right-menu__profile {
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  padding: 2px 5px;
+  }
+
+.header__right-menu__profile .container {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  gap: 0.5rem;
+}
 
 .header__right-menu__profile .name {
   font-size: 1rem;
+  font-family: 'Smooch', cursive;
+}
+.header__right-menu__profile img {
+  border-radius: 50%;
 }
 /* Left menu*/
 .left-menu {
