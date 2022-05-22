@@ -128,6 +128,7 @@ button {
   color: #d94843;
   border-radius: 15px;
   font-weight: bold;
+  padding-left: 5px;
 }
 .menu-item__starred {
   display: grid;
@@ -242,22 +243,20 @@ button {
 .menu-item__chat__nina-xu__plus-icon {
   color: #72767b;
 }
-/* I need to work more on tom and jecicca messages */
 .menu-item__chat__tom-dow {
   display: grid;
   grid-template-columns: 45px auto;
   padding: 5px;
   font-weight: bold;
   font-size: 0.9rem;
+  color: #2a2a2d;
 }
 .menu-item__chat__tom-dow__profile-picture img {
   width: 35px;
   border-radius: 50%;
 }
 .menu-item__chat__tom-dow__message {
-  display: grid;
-  grid-auto-flow: column;
-  padding-left: 50px;
+  font-weight: normal;
 }
 .menu-item__chat__jessica-holman {
   display: grid;
@@ -265,15 +264,14 @@ button {
   padding: 5px;
   font-weight: bold;
   font-size: 0.9rem;
+  color: #2a2a2d;
 }
 .menu-item__chat__jessica-holman__profile-picture img {
   width: 35px;
   border-radius: 50%;
 }
 .menu-item__chat__jessica-holman__message {
-  display: grid;
-  grid-auto-flow: column;
-  padding-left: 50px;
+  font-weight: normal;
 }
 .left-menu__footer {
   display: grid;
@@ -293,6 +291,154 @@ button {
   background-color: aquamarine;
   grid-area: emails;
 }
+.email__icons {
+ display: grid;
+ grid-template-columns: 0.1fr 0.1fr 0.1fr 11fr 1fr 0.1fr 0.11fr;
+ padding: 10px;
+ align-items: center;
+}
+.emails__email-1 {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 1fr 4fr 17fr 2fr;
+  padding: 5px;
+  align-items: center;
+  color:  #27292e;
+  font-weight: bold;
+}
+
+.emails__email-1__drag-icon {
+  color: #bcc0c4;
+  font-size: 5px;
+}
+.emails__email-1__check-box {
+  color: #bcc0c4;
+}
+.emails__email-1__star-icon {
+color: #fbbb03
+}
+.emails__email-2 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-2__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-2__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-3 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-3__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-3__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-4 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-4__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-4__star-icon {
+  color: #fbbb03
+}
+.emails__email-5 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  }
+.emails__email-5__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-5__star-icon {
+  color: #fbbb03
+}
+.emails__email-6 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  }
+.emails__email-6__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-6__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-7 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-7__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-7__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-8 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  }
+.emails__email-8__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-8__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-9 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-9__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-9__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-10 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.emails__email-10__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-10__star-icon {
+  color: #bcc0c4;
+}
 /*Right menu */
 .right-menu {
   background-color: rgb(241, 194, 132);
@@ -302,4 +448,7 @@ button {
 .shortcuts {
   background-color: rgb(201, 192, 192);
   grid-area: shortcuts;
+}
+ul {
+  list-style: none;
 }
