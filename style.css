@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+}
 
 /* body */
 body {
@@ -13,7 +16,7 @@ body {
     "left-menu emails right-menu shortcuts" 1fr /
     180px 1fr 180px 50px;
 }
-/* Header */
+/* HEADER SECTIOM */
 .header {
   background-color: white;
   grid-area: header;
@@ -30,6 +33,7 @@ button {
   font-size: 1.5rem;
   color: #50575e;
 }
+/*Header Left Menu */
 .header__left-menu {
   display: grid;
   grid-auto-flow: column;
@@ -42,6 +46,7 @@ button {
 .profile-picture {
   width: 30px;
 }
+/*Header Search*/
 .header__search {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -75,6 +80,7 @@ button {
 .header__search__expand span {
   font-size: 1.2rem;
 }
+/*Header Right Menu */
 .header__right-menu {
   display: grid;
   grid-auto-flow: column;
@@ -84,7 +90,7 @@ button {
   border: 1px solid rgb(215, 215, 215);
   border-radius: 5px;
   padding: 2px 5px;
-  }
+}
 
 .header__right-menu__profile .container {
   display: grid;
@@ -95,16 +101,86 @@ button {
 
 .header__right-menu__profile .name {
   font-size: 1rem;
-  font-family: 'Smooch', cursive;
+  font-family: "Smooch", cursive;
 }
 .header__right-menu__profile img {
   border-radius: 50%;
 }
-/* Left menu*/
+/* LEFT MENU */
 .left-menu {
-  background-color: plum;
+  background-color: white;
   grid-area: left-menu;
+  display: grid;
+  border-bottom: 2px solid gray;
 }
+.left-menu .compose {
+  padding-top: 10px;
+  width: 150px;
+}
+.menu-item__inbox {
+  display: grid;
+  grid-template-columns: 35px 1fr 25px;
+  padding-top: 10px;
+  align-items: center;
+  background-color: #fce8e6;
+  color: #d94843;
+  border-radius: 15px;
+}
+.menu-item__starred {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__snoozed {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__important {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__sent {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__team {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__new-rfps {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__projects {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__personal {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+.menu-item__more {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  padding: 5px;
+}
+
 /* Emails */
 .emails {
   background-color: aquamarine;
