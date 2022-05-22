@@ -24,6 +24,7 @@ body {
   grid-template-columns: auto 1fr auto;
   gap: 3rem;
   padding: 0.5rem 1rem;
+  border-bottom: 1px solid #f2f4f5;
 }
 button {
   border: none;
@@ -288,7 +289,7 @@ button {
 
 /* Emails */
 .emails {
-  background-color: aquamarine;
+  background-color: white;
   grid-area: emails;
 }
 .email__icons {
@@ -296,6 +297,12 @@ button {
  grid-template-columns: 0.1fr 0.1fr 0.1fr 11fr 1fr 0.1fr 0.11fr;
  padding: 10px;
  align-items: center;
+ color: #61656b;
+ border-radius: 1px;
+ border-bottom: 1px solid #f2f4f5;
+}
+.email__icons__check-box{
+  padding-left: 17px;
 }
 .emails__email-1 {
   display: grid;
@@ -304,6 +311,7 @@ button {
   align-items: center;
   color:  #27292e;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 
 .emails__email-1__drag-icon {
@@ -322,6 +330,7 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-2__check-box {
   padding-left: 25px;
@@ -336,6 +345,7 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-3__check-box {
   padding-left: 25px;
@@ -350,6 +360,7 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-4__check-box {
   padding-left: 25px;
@@ -363,6 +374,8 @@ color: #fbbb03
   grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
   padding: 5px;
   align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
   }
 .emails__email-5__check-box {
   padding-left: 25px;
@@ -376,6 +389,8 @@ color: #fbbb03
   grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
   padding: 5px;
   align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
   }
 .emails__email-6__check-box {
   padding-left: 25px;
@@ -390,6 +405,7 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-7__check-box {
   padding-left: 25px;
@@ -403,6 +419,8 @@ color: #fbbb03
   grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
   padding: 5px;
   align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
   }
 .emails__email-8__check-box {
   padding-left: 25px;
@@ -417,6 +435,7 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-9__check-box {
   padding-left: 25px;
@@ -431,12 +450,118 @@ color: #fbbb03
   padding: 5px;
   align-items: center;
   font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
 }
 .emails__email-10__check-box {
   padding-left: 25px;
   color: #bcc0c4;
 }
 .emails__email-10__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-11 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  font-weight: bold;
+  border-bottom: 1px solid #f2f4f5;
+}
+.emails__email-11__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-11__star-icon {
+  color: #fbbb03
+}
+.emails__email-12 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-12__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-12__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-13 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-13__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-13__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-14 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-14__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-14__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-15 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-15__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-15__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-16 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-16__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-16__star-icon {
+  color: #bcc0c4;
+}
+.emails__email-17 {
+  display: grid;
+  grid-template-columns: auto 0.9fr  3.7fr 16fr 1.7fr;
+  padding: 5px;
+  align-items: center;
+  background-color: #f5f6f7;
+  border-bottom: 1px solid #f2f4f5;
+  }
+.emails__email-17__check-box {
+  padding-left: 25px;
+  color: #bcc0c4;
+}
+.emails__email-17__star-icon {
   color: #bcc0c4;
 }
 /*Right menu */
