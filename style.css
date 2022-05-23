@@ -590,3 +590,15 @@ ul {
     display: none;
   }
 }
+
+@media screen and (max-width:1050px) {
+  body {
+    grid-template:
+      'header header' 50px
+      'left-menu emails ' 1fr /
+      180px 1fr;
+  }
+  .right-menu {
+    display: none;
+  }
+}
