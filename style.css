@@ -14,7 +14,7 @@ body {
   grid-template:
     "header header header header" auto
     "left-menu emails right-menu shortcuts" 1fr /
-    180px 1fr 180px 50px;
+    180px 1fr auto 50px;
 }
 /* HEADER SECTIOM */
 .header {
@@ -576,4 +576,17 @@ color: #fbbb03
 }
 ul {
   list-style: none;
+}
+/* MEDIA QUERY */
+@media screen and (max-width:1170px) {
+  body {
+    grid-template:
+      'header header header' 50px
+      'left-menu emails right-menu' 1fr /
+      180px 1fr 180px;
+  }
+
+  .shortcuts{
+    display: none;
+  }
 }
